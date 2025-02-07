@@ -3,7 +3,7 @@ version: '2.2'
 services:
   elasticsearch:
     image: docker.elastic.co/elasticsearch/elasticsearch:7.11.1
-    container_name: elasticsearch
+    container_name: elasticsearch_elk_stack
     environment:
       - discovery.type=single-node
       - ES_JAVA_OPTS=-Xms1g -Xmx1g
@@ -18,7 +18,7 @@ services:
 
   logstash:
     image: docker.elastic.co/logstash/logstash:7.11.1
-    container_name: logstash
+    container_name: logstash_stack_elk
     volumes:
       - ./logstash/logstash.conf:/usr/share/logstash/pipeline/logstash.conf
     ports:
@@ -32,7 +32,7 @@ services:
 
   kibana:
     image: docker.elastic.co/kibana/kibana:7.11.1
-    container_name: kibana
+    container_name: kibana_stack_elk
     environment:
     - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
     - ELASTICSEARCH_USERNAME=elastic
