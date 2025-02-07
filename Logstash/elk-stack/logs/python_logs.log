@@ -60,3 +60,18 @@
 {"level": "INFO", "message": "User logged in", "user_id": 1}
 {"level": "DEBUG", "message": "Query executed", "user_id": 3}
 {"level": "INFO", "message": "User logged in", "user_id": 1}
+{"level": "INFO", "message": "User logged in", "user_id": 1}
+{"level": "DEBUG", "message": "Query executed", "user_id": 3}
+{"level": "INFO", "message": "User logged in", "user_id": 1}
+{"level": "DEBUG", "message": "Query executed", "user_id": 3}
+{"level": "DEBUG", "message": "Query executed", "user_id": 3}
+{"level": "DEBUG", "message": "Query executed", "user_id": 3}
+{"level": "INFO", "message": "User logged in", "user_id": 1}
+{"level": "DEBUG", "message": "Query executed", "user_id": 3}
+{"level": "DEBUG", "message": "Query executed", "user_id": 3}
+{"level": "DEBUG", "message": "Query executed", "user_id": 3}
+{"level": "INFO", "message": "User logged in", "user_id": 1}
+{"level": "INFO", "message": "User logged in", "user_id": 1}
+{"level": "INFO", "message": "User logged in", "user_id": 1}
+{"level": "DEBUG", "message": "Query executed", "user_id": 3}
+{"level": "DEBUG", "message": "Query executed", "user_id": 3}
