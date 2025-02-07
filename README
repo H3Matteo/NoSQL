@@ -1,1 +1,18 @@
-readme
+MongoDB
+MongoDB est une base de données NoSQL utilisée pour stocker les données brutes avant qu'elles ne soient traitées par Logstash et indexées dans Elasticsearch.
+
+Elasticsearch
+Elasticsearch est un moteur de recherche et d'indexation distribué utilisé pour stocker et interroger les données traitées par Logstash.
+
+Configuration Elasticsearch :
+
+Port HTTP: 9200
+Port Transport: 9300
+
+Logstash
+Logstash est un pipeline de traitement de données utilisé pour ingérer, transformer et envoyer des données vers Elasticsearch.
+
+Configuration Logstash :
+
+Port de réception (beats): 5044
+Fichier de configuration de pipeline: logstash.conf
