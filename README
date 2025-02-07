@@ -9,6 +9,19 @@ Configuration Elasticsearch :
 Port HTTP: 9200
 Port Transport: 9300
 
+Commandes Elasticsearch
+Vérifier si Elasticsearch est en cours d'exécution :
+
+Vous pouvez tester si Elasticsearch est en fonctionnement en accédant à l'URL suivante :
+
+curl http://localhost:9200
+
+Vérifier les indices existants :
+
+Pour voir tous les indices créés dans Elasticsearch, utilisez la commande suivante :
+
+curl http://localhost:9200/_cat/indices?v
+
 Logstash
 Logstash est un pipeline de traitement de données utilisé pour ingérer, transformer et envoyer des données vers Elasticsearch.
 
@@ -16,3 +29,12 @@ Configuration Logstash :
 
 Port de réception (beats): 5044
 Fichier de configuration de pipeline: logstash.conf
+
+Commandes Logstash
+Vérifier l'état de Logstash :
+
+Pour vérifier l'état de Logstash, vous pouvez exécuter la commande suivante pour obtenir des informations de base :
+
+curl http://localhost:9600
+
+
